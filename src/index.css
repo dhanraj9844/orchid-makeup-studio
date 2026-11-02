@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------------------------------------------------
+   Global base styles
+   WHY here, not per-component: scrollbar styling, smooth scroll, and
+   selection color are site-wide brand touches that belong once, globally,
+   rather than repeated per component.
+   ----------------------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: #c9a15a55;
+  color: #1b1411;
+}
+
+/* Thin gold scrollbar (desktop/web only — no-op on most mobile browsers) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fff8ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9a15a66;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c9a15a99;
+}
