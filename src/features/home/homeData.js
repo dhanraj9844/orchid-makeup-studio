@@ -10,8 +10,8 @@
  * -----------------------------------------------------------------------
  */
 import hero1 from '../../assets/images/hero/hero_1.jpg';
-import hero2 from '../../assets/images/hero/hero_2.jpg';
-import hero3 from '../../assets/images/hero/hero_3.jpg';
+import hero2 from '../../assets/images/hero/hero_2.png';
+import hero3 from '../../assets/images/hero/hero_3.png';
 
 export const heroImages = [hero1, hero2, hero3];
 
