@@ -1,4 +1,4 @@
-import HeroSection from './components/hero/HeroSection.jsx';
+import HeroSection from './components/hero/heroSection.jsx';
 import AboutSection from './components/about/AboutSection.jsx';
 import ServicesSection from './components/services/ServicesSection.jsx';
 import WhyChooseSection from './components/whyChoose/WhyChooseSection.jsx';
