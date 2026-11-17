@@ -3,7 +3,7 @@ import AboutSection from './components/about/AboutSection.jsx';
 import ServicesSection from './components/services/ServicesSection.jsx';
 import WhyChooseSection from './components/whyChoose/whyChooseSection.jsx';
 import PortfolioSection from './components/gallery/portfolioSection.jsx';
-import VideoGallerySection from './components/videos/VideoGallerySection.jsx';
+import VideoGallerySection from './components/videos/videoGallerySection.jsx';
 import AcademySection from './components/academy/AcademySection.jsx';
 import ReviewsSection from './components/reviews/ReviewsSection.jsx';
 import ClientEnquiryForm from './components/ClientEnquiryForm.jsx';
