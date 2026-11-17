@@ -7,7 +7,7 @@ import VideoGallerySection from './components/videos/videoGallerySection.jsx';
 import AcademySection from './components/academy/AcademySection.jsx';
 import ReviewsSection from './components/reviews/ReviewsSection.jsx';
 import ClientEnquiryForm from './components/ClientEnquiryForm.jsx';
-import WhatsAppButton from './components/WhatsAppButton.jsx';
+import WhatsAppButton from './components/WhatsappButton.jsx';
 
 export default function App() {
   const handleBookAppointment = () => {
