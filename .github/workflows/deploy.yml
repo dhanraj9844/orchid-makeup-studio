@@ -4,7 +4,7 @@ name: Deploy Orchid Makeup Studio to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - dhanraj
   workflow_dispatch:
 
 permissions:
