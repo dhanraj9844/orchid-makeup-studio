@@ -1,2 +1,7 @@
+node_modules
+dist
 .env
 .env.local
+.firebase
+functions/node_modules
+orchid-makeup-studio/
