@@ -1,8 +1,8 @@
 import { useState, useMemo } from 'react';
 import Section from '../layout/Section.jsx';
 import SectionHeading from '../ui/SectionHeading.jsx';
-import PortfolioFilter from './PortfolioFilter.jsx';
-import PortfolioMasonry from './PortfolioMasonry.jsx';
+import PortfolioFilter from "./portfolioFilter.jsx";
+import PortfolioMasonry from './portfolioMasonry.jsx';
 import { portfolioImages } from '../../features/gallery/portfolioData.js';
 
 /**

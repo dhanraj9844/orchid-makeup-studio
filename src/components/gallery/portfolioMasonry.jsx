@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import PortfolioLightbox from './PortfolioLightbox.jsx';
+import PortfolioLightbox from './portfolioLightBox.jsx';
 import { categoryLabels } from '../../features/gallery/portfolioData.js';
 
 export default function PortfolioMasonry({ images }) {
